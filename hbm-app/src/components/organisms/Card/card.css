@@ -1,0 +1,20 @@
+.card-container {
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+@media all and (max-width: 767px) {
+  .card-container {
+    align-items: center;
+  }
+}

@@ -1,0 +1,5 @@
+@media all and (max-width: 767px) {
+  .inputRadio-text {
+    font-size: 12px;
+  }
+}

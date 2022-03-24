@@ -1,0 +1,31 @@
+.newProduct-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.newProduct-title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.newProduct-inputRadio {
+  display: flex;
+  align-items: center;
+}
+
+.newProduct-buttonsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (max-width: 767px) {
+  .newProduct-title {
+    font-size: 18px;
+  }
+
+  .newProduct-text {
+    font-size: 12px;
+  }
+}

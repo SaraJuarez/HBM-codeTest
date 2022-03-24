@@ -1,0 +1,16 @@
+.input-myInput {
+  width: -webkit-fill-available;
+  border: none;
+  border-bottom: 1px solid #757577;
+}
+
+.input-myInput:hover,
+.input-myInput {
+  outline: none;
+}
+
+@media all and (max-width: 767px) {
+  .input-text {
+    font-size: 12px;
+  }
+}

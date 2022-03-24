@@ -1,0 +1,30 @@
+.filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filters-switchContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.filters-dropdownContainer {
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 767px) {
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filters-dropdownContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
